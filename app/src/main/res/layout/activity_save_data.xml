@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".SaveDataActivity">
+
+    <WebView
+        android:id="@+id/webview_savedata_showdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp">
+
+    </WebView>
+
+    <FrameLayout
+        android:id="@+id/frame_savedata_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/button_savedata_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="@dimen/padding_all_button"
+        android:text="@string/savedata_save"
+        android:textSize="@dimen/textsize_all_button" />
+
+    <Button
+        android:id="@+id/button_savedata_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="@dimen/padding_all_button"
+        android:text="@string/savedata_back"
+        android:textSize="@dimen/textsize_all_button" />
+
+</LinearLayout>

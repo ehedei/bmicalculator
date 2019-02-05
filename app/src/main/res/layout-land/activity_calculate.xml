@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".CalculateActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview_calculate_height"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/all_height"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edittext_calculate_height"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/calculate_heighthint"
+            android:inputType="number|numberDecimal" />
+
+        <TextView
+            android:id="@+id/textview_calculate_age"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/all_age"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edittext_calculate_age"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/calculate_agehint"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textview_calculate_weight"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/all_weight"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edittext_calculate_weight"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/calculate_weighthint"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_calculate_sex"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/all_sex"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_calculate_sex"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/radiobutton_calculate_man"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/all_man" />
+
+            <RadioButton
+                android:id="@+id/radiobutton_calculate_woman"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/all_woman" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_calculate_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:padding="@dimen/padding_all_button"
+            android:textSize="@dimen/textsize_all_button"
+            android:text="@string/calculate_calculate" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

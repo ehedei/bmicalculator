@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Masa Corporal</string>
+    <string name="all_age">Edad</string>
+    <string name="all_bmi">IMC</string>
+    <string name="all_errorform">Debe completar todos los campos</string>
+    <string name="all_firstname">Nombre</string>
+    <string name="all_height">Altura</string>
+    <string name="all_lastname">Apellidos</string>
+    <string name="all_man">Hombre</string>
+    <string name="all_noinserted">Datos no insertados</string>
+    <string name="all_sex">Sexo</string>
+    <string name="all_weight">Peso</string>
+    <string name="all_woman">Mujer</string>
+    <string name="calculate_agehint">Introduzca su edad en años</string>
+    <string name="calculate_calculate">Calcular</string>
+    <string name="calculate_heighthint">Introduzca su altura en metros</string>
+    <string name="calculate_weighthint">Introduzca su peso en kilogramos</string>
+    <string name="getdata_firstnamehint">Introduzca el nombre a buscar</string>
+    <string name="getdata_idealweight">Peso ideal</string>
+    <string name="getdata_noresults">Sin resultados</string>
+    <string name="getdata_search">Filtrar</string>
+    <string name="main_calculate">Calcular IMC</string>
+    <string name="main_getdata">Ver Datos Guardados</string>
+    <string name="savedata_back">Regresar</string>
+    <string name="savedata_confirmation">Persona guardada</string>
+    <string name="savedata_firstnamehint">Introduzca su nombre</string>
+    <string name="savedata_lastnamehint">Introduzca sus apellidos</string>
+    <string name="savedata_save">Grabar datos</string>
+    <string name="savedata_saveconfirmation">Escribir en fichero</string>
+</resources>

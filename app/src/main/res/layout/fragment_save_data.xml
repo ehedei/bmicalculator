@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_button_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/linearlayout_save_data"
+    tools:context=".SaveDataFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/all_firstname"
+        android:padding="@dimen/padding_all_button"
+        android:textSize="@dimen/textsize_all_text" />
+
+    <EditText
+        android:id="@+id/edittext_savedata_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/savedata_firstnamehint"
+        android:inputType="textPersonName"
+        android:padding="@dimen/padding_all_button"
+        android:textSize="@dimen/textsize_all_text" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all_button"
+        android:textSize="@dimen/textsize_all_text"
+        android:text="@string/all_lastname" />
+
+    <EditText
+        android:id="@+id/edittext_savedata_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:padding="@dimen/padding_all_button"
+        android:textSize="@dimen/textsize_all_text"
+        android:hint="@string/savedata_lastnamehint"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/button_savedata_saveconfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all_button"
+        android:textSize="@dimen/textsize_all_button"
+        android:text="@string/savedata_saveconfirmation" />
+
+</LinearLayout>

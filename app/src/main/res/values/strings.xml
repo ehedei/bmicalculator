@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Body Mass Index</string>
+    <string name="all_age">Age</string>
+    <string name="all_bmi">BMI</string>
+    <string name="all_errorform">You must complete the form</string>
+    <string name="all_firstname">Name</string>
+    <string name="all_height">Height</string>
+    <string name="all_lastname">Last Name</string>
+    <string name="all_man">Man</string>
+    <string name="all_noinserted">Not inserted data</string>
+    <string name="all_sex">Sex</string>
+    <string name="all_weight">Weight</string>
+    <string name="all_woman">Woman</string>
+    <string name="calculate_agehint">Insert your age</string>
+    <string name="calculate_calculate">Calculate</string>
+    <string name="calculate_heighthint">Insert your height in meters</string>
+    <string name="calculate_weighthint">Insert your weight in kilograms</string>
+    <string name="getdata_firstnamehint">Insert the first name</string>
+    <string name="getdata_idealweight">Ideal weight</string>
+    <string name="getdata_noresults">No results</string>
+    <string name="getdata_search">Search</string>
+    <string name="main_calculate">Calculate BMI</string>
+    <string name="main_getdata">Get Saved Data</string>
+    <string name="savedata_back">Back</string>
+    <string name="savedata_confirmation">Person saved</string>
+    <string name="savedata_firstnamehint">Insert your first name</string>
+    <string name="savedata_lastnamehint">Insert your last name</string>
+    <string name="savedata_save">Save</string>
+    <string name="savedata_saveconfirmation">Save file</string>
+</resources>
